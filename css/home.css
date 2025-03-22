@@ -169,7 +169,6 @@ body {
 /* Medium screens (e.g., tablets) */
 @media (max-width: 768px) {
   .socialscard {
-    width: 500px;
     gap: 10px;
   }
 }
@@ -177,7 +176,7 @@ body {
 /* Small screens (e.g., phones) */
 @media (max-width: 480px) {
   .socialscard {
-    width: 100px;
+    width: fit-content;
   }
 }
 
