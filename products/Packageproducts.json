@@ -1,17 +1,9 @@
 [
   {
-    "title": "Kahli Shimeji",
-    "subtitle": "A small Kahli crawling around your desktop.",
-    "price": "Free",
-    "image": "resources/KahliShimeji.gif",
-    "link": "https://drive.google.com/uc?export=download&id=1hXErQssznX1BdRxyVdZ5Wd8mx3D1zbZ6",
-    "type": "free"
-  },
-  {
     "title": "CSM Free Shimejis",
     "subtitle": "Small CSM characters crawling around your desktop. <br>Includes : <br>• Makima <br>• Power</div>",
     "price": "Free",
-    "image": "resources/MakPowShimeji.gif",
+    "image": "resources/productimages/packageimages/MakPowShimeji.gif",
     "link": "https://drive.google.com/uc?export=download&id=1G-xwp7wReedfXFNXviLs2Dpc9b3UKYSV",
     "type": "free"
   },
@@ -19,7 +11,7 @@
     "title": "CSM Series Shimejis",
     "subtitle": "Small CSM characters crawling around your desktop.<br>Includes : <br>• Makima<br>• Power<br>• Kobeni<br>• Asa<br>• Reze",
     "price": "$5.00",
-    "image": "resources/CSMShimeji.gif",
+    "image": "resources/productimages/packageimages/CSMShimeji.gif",
     "link": "https://ko-fi.com/s/551e5c41bd",
     "type": "paid"
   },
@@ -27,7 +19,7 @@
     "title": "CSM Quanxi Squad Series Shimejis (Commissioned)",
     "subtitle": "Small CSM characters crawling around your desktop. <br>Includes : <br>• Quanxi <br>• Pingsti <br>• Cosmo <br>• Tsugihagi <br>• Long",
     "price": "$50.00",
-    "image": "resources/QuanxiSquadShimeji.gif",
+    "image": "resources/productimages/packageimages/QuanxiSquadShimeji.gif",
     "link": "https://ko-fi.com/s/30d0bf98b2",
     "type": "paid"
   }
