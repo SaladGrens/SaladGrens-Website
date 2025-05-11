@@ -141,6 +141,10 @@
   font-size: 15px;
 }
 
+.card__button svg {
+  margin-bottom: -2.5px;
+}
+
 .card__button:hover {
   scale: 1.05;
   background-color: rgba(107, 233, 132, 0.5);
