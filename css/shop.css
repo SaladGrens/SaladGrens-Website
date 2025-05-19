@@ -150,3 +150,31 @@
   background-color: rgba(107, 233, 132, 0.5);
   transition-duration: 0.3s;
 }
+
+/* Search bar styling */
+#productSearch {
+  color:#fff;
+  background-color: rgba(118, 135, 158, 0.1);
+  padding: 10px 14px;
+  font-size: 1.1rem;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 24px auto;
+  transition-duration: 0.3s;
+}
+
+#productSearch:focus {
+  border-color: rgba(107, 233, 132, 0.5);
+  outline: none;
+  background-color: rgba(42, 127, 117, 0.15);
+  backdrop-filter: blur(20px);
+  transition-duration: 0.3s;
+}
+
+#productSearch:hover {
+  scale: 1.05;
+  transition-duration: 0.3s;
+}

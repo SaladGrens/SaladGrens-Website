@@ -215,54 +215,75 @@
 
     <h2>Individual Shimejis</h2>
     <p><i>Individual shimejis only contain the image files and not the program itself.
-      <br>You may download a package or shimeji that contains the program itself and add the new shimejis.</i>
+        <br>You may download a package or shimeji that contains the program itself and add the new shimejis.</i>
     </p>
+
+    <input type="text" id="productSearch" placeholder="🔎 Search Shimejis...">
 
     <div class="shopitems" id="individualproductContainer"></div>
     <script>
+      let allProducts = [];
+
+      const container = document.getElementById('individualproductContainer');
+      const searchInput = document.getElementById('productSearch');
+
+      function renderProducts(filter = '') {
+        container.innerHTML = '';
+        const filtered = allProducts.filter(product =>
+          product.title.toLowerCase().includes(filter.toLowerCase()) ||
+          product.subtitle.toLowerCase().includes(filter.toLowerCase())
+        );
+
+        filtered.forEach(product => {
+          const card = document.createElement('div');
+          card.className = 'card';
+
+          card.innerHTML = `
+        <div class="prodImage">
+          <img loading="lazy" src="${product.image}" alt="${product.title}">
+        </div>
+        <div class="card__title">${product.title}</div>
+        <div class="card__subtitle">${product.subtitle}</div>
+        <div class="card__wrapper">
+          <div class="card__price">${product.price}</div>
+          <a href="${product.link}" target="_blank">
+            <div class="card__button">
+              <p>${product.type === 'free' ? `
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#ffffff" fill="none">
+                  <path d="M3.00012 14L3.23397 14.6626C4.14412 17.2413 4.5992 18.5307 5.63754 19.2654C6.67588 20 8.04322 20 10.7779 20H13.2224C15.957 20 17.3244 20 18.3627 19.2654C19.401 18.5307 19.8561 17.2413 20.7663 14.6626L21.0001 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                  <path d="M12.0001 14V4M12.0001 14C11.2999 14 9.99165 12.0057 9.50012 11.5M12.0001 14C12.7003 14 14.0086 12.0057 14.5001 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                ` : `
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#ffffff" fill="none">
+                  <path d="M8 16H15.2632C19.7508 16 20.4333 13.1808 21.261 9.06908C21.4998 7.88311 21.6192 7.29013 21.3321 6.89507C21.045 6.5 20.4947 6.5 19.3941 6.5H6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                  <path d="M8 16L5.37873 3.51493C5.15615 2.62459 4.35618 2 3.43845 2H2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                  <path d="M8.88 16H8.46857C7.10522 16 6 17.1513 6 18.5714C6 18.8081 6.1842 19 6.41143 19H17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <circle cx="10.5" cy="20.5" r="1.5" stroke="currentColor" stroke-width="1.5" />
+                  <circle cx="17.5" cy="20.5" r="1.5" stroke="currentColor" stroke-width="1.5" />
+                </svg>
+              `}
+              ${product.type === 'free' ? 'Download' : 'Buy'}
+              </p>
+            </div>
+          </a>
+        </div>
+      `;
+          container.appendChild(card);
+        });
+      }
+
       fetch('products/Individualproducts.json')
         .then(response => response.json())
         .then(data => {
-          const container = document.getElementById('individualproductContainer');
-
-          data.forEach(product => {
-            const card = document.createElement('div');
-            card.className = 'card';
-
-            card.innerHTML = `
-                <div class="prodImage">
-                  <img loading="lazy" src="${product.image}" alt="${product.title}">
-                </div>
-                <div class="card__title">${product.title}</div>
-                <div class="card__subtitle">${product.subtitle}</div>
-                <div class="card__wrapper">
-                  <div class="card__price">${product.price}</div>
-                  <a href="${product.link}" target="_blank">
-                    <div class="card__button">
-                      <p>${product.type === 'free' ? `
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#ffffff" fill="none">
-                          <path d="M3.00012 14L3.23397 14.6626C4.14412 17.2413 4.5992 18.5307 5.63754 19.2654C6.67588 20 8.04322 20 10.7779 20H13.2224C15.957 20 17.3244 20 18.3627 19.2654C19.401 18.5307 19.8561 17.2413 20.7663 14.6626L21.0001 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-                          <path d="M12.0001 14V4M12.0001 14C11.2999 14 9.99165 12.0057 9.50012 11.5M12.0001 14C12.7003 14 14.0086 12.0057 14.5001 11.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          </svg>
-                        ` : `
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#ffffff" fill="none">
-                          <path d="M8 16H15.2632C19.7508 16 20.4333 13.1808 21.261 9.06908C21.4998 7.88311 21.6192 7.29013 21.3321 6.89507C21.045 6.5 20.4947 6.5 19.3941 6.5H6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-                          <path d="M8 16L5.37873 3.51493C5.15615 2.62459 4.35618 2 3.43845 2H2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-                          <path d="M8.88 16H8.46857C7.10522 16 6 17.1513 6 18.5714C6 18.8081 6.1842 19 6.41143 19H17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                          <circle cx="10.5" cy="20.5" r="1.5" stroke="currentColor" stroke-width="1.5" />
-                          <circle cx="17.5" cy="20.5" r="1.5" stroke="currentColor" stroke-width="1.5" />
-                          </svg>
-                        `}
-                        ${product.type === 'free' ? 'Download' : 'Buy'}
-                      </p>
-                    </div>
-                  </a>
-                </div>
-              `;
-            container.appendChild(card);
-          });
+          allProducts = data;
+          renderProducts();
         });
+
+      searchInput.addEventListener('input', () => {
+        renderProducts(searchInput.value);
+      });
     </script>
+
 
   </div>
 
