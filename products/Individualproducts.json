@@ -134,5 +134,29 @@
     "image": "resources/productimages/individualimages/Nayuta.gif",
     "link": "https://ko-fi.com/s/31bcf1e51f",
     "type": "paid"
+  },
+  {
+    "title": "Frieren Shimeji",
+    "subtitle": "Frieren Series Shimeji - Commissioned",
+    "price": "$10",
+    "image": "resources/productimages/individualimages/Frieren.gif",
+    "link": "https://ko-fi.com/s/ca6348d03d",
+    "type": "paid"
+  },
+  {
+    "title": "Fern Shimeji",
+    "subtitle": "Frieren Series Shimeji - Commissioned",
+    "price": "$10",
+    "image": "resources/productimages/individualimages/Fern.gif",
+    "link": "https://ko-fi.com/s/c2e8b76c67",
+    "type": "paid"
+  },
+  {
+    "title": "Stark Shimeji",
+    "subtitle": "Frieren Series Shimeji - Commissioned",
+    "price": "$10",
+    "image": "resources/productimages/individualimages/Stark.gif",
+    "link": "https://ko-fi.com/s/31bcf1e51f",
+    "type": "paid"
   }
 ]

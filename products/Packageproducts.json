@@ -25,10 +25,18 @@
   },
   {
     "title": "Ultimate Public Safety Shimejis",
-    "subtitle": "<i>Your insanity level must be high enough to buy this...</i><br><br> Small CSM characters crawling around your desktop. <br>Includes : <br>• Makima <br>• Power <br>• Kobeni <br>• Reze <br>• Asa<br>• Quanxi<br>• Pingsti<br>• Cosmo<br>• Tsugihagi<br>• Long<br>• Fumiko<br>• Death<br>• Himeno<br>• Yoru<br>• Fami<br>• Nayuta<br>• A037 <i>(The Creator)</i>",
+    "subtitle": "<i>Your insanity level must be high enough to buy this...</i><br><br> Small CSM characters crawling around your desktop. <br>Includes : <br>• Makima <br>• Power <br>• Kobeni <br>• Reze <br>• Asa<br>• Quanxi<br>• Pingsti<br>• Cosmo<br>• Tsugihagi<br>• Long<br>• Fumiko<br>• Death<br>• Himeno<br>• Yoru<br>• Fami<br>• Nayuta<br>• A037 <i>(The Creator)</i><br><br> <i>Contains Program</i>",
     "price": "$116.00",
     "image": "resources/productimages/packageimages/PublicSafetyShimeji.gif",
     "link": "https://ko-fi.com/s/cdc5dbd1c3",
+    "type": "paid"
+  },
+  {
+    "title": "Frieren Series Shimejis",
+    "subtitle": "Small Frieren: Beyond Journey's End characters crawling around your desktop.<br>Includes : <br>• Frieren<br>• Fern<br>• Stark<br><br> <i>Contains Program</i>",
+    "price": "$30.00",
+    "image": "resources/productimages/packageimages/FrierenSeries.gif",
+    "link": "https://ko-fi.com/s/2da7b38993",
     "type": "paid"
   }
 ]
