@@ -1,0 +1,37 @@
+.supportContent {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation: fadeIn 1.5s ease-out;
+}
+
+.supportContent h1 {
+  font-size: 40px;
+}
+
+.supportContent h2 {
+  font-size: 30px;
+}
+
+.supportContent p, hr {
+  font-size: 22px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+#kofiframe {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+    width: fit-content;
+    height: 630px;
+    transition-duration: 0.3s;
+}
+
+#kofiframe:hover {
+    scale: 1.03;
+    transition-duration: 0.3s;
+}

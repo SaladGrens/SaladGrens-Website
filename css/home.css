@@ -83,8 +83,6 @@ body {
   text-align: center;
   justify-content: center;
   margin-top: 50px;
-  margin-left: 80px;
-  margin-right: 80px;
   padding-bottom: 80px;
   animation: fadeIn 1.5s ease-out;
 }
@@ -112,6 +110,8 @@ body {
 
 .homecontent p {
   font-size: 22px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .SGSignature {
@@ -170,13 +170,15 @@ body {
 @media (max-width: 768px) {
   .socialscard {
     gap: 10px;
+    width: 480px;
   }
 }
 
 /* Small screens (e.g., phones) */
 @media (max-width: 480px) {
   .socialscard {
-    width: fit-content;
+    gap: 5px;
+    width: 350px;
   }
 }
 

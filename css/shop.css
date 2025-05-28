@@ -5,8 +5,11 @@
   animation: fadeIn 1.5s ease-out;
 }
 
-.ShopContent h1 {
+.ShopContent h1,
+hr {
   font-size: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .ShopContent h2 {
@@ -15,6 +18,13 @@
 
 .ShopContent p {
   font-size: 22px;
+}
+
+.SGshop {
+  border-radius: 50px;
+  margin: 10px;
+  width: 100%;
+  max-width: 500px;
 }
 
 .shopitems {
@@ -153,7 +163,7 @@
 
 /* Search bar styling */
 #productSearch {
-  color:#fff;
+  color: #fff;
   background-color: rgba(118, 135, 158, 0.1);
   padding: 10px 14px;
   font-size: 1.1rem;
