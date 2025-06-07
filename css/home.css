@@ -108,7 +108,7 @@ body {
   font-size: 30px;
 }
 
-.homecontent p {
+.homecontent p, hr {
   font-size: 22px;
   margin-left: 80px;
   margin-right: 80px;
