@@ -136,6 +136,22 @@
     "type": "paid"
   },
   {
+    "title": "Denji Shimeji",
+    "subtitle": "Chainsawman Series Shimeji - Commissioned",
+    "price": "$10",
+    "image": "resources/productimages/individualimages/Denji.gif",
+    "link": "https://ko-fi.com/s/736a3665ba",
+    "type": "paid"
+  },
+    {
+    "title": "Aki Shimeji",
+    "subtitle": "Chainsawman Series Shimeji - Commissioned",
+    "price": "$10",
+    "image": "resources/productimages/individualimages/Aki.gif",
+    "link": "https://ko-fi.com/s/f73f6800f3",
+    "type": "paid"
+  },
+  {
     "title": "Frieren Shimeji",
     "subtitle": "Frieren Series Shimeji - Commissioned",
     "price": "$10",
