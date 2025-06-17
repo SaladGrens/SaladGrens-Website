@@ -174,5 +174,21 @@
     "image": "resources/productimages/individualimages/Stark.gif",
     "link": "https://ko-fi.com/s/31bcf1e51f",
     "type": "paid"
+  },
+  {
+    "title": "Gojo Shimeji",
+    "subtitle": "Jujutsu Kaisen Series Shimeji - Commissioned",
+    "price": "$10",
+    "image": "resources/productimages/individualimages/Gojo.gif",
+    "link": "https://ko-fi.com/s/6228cd05eb",
+    "type": "paid"
+  },
+  {
+    "title": "Geto Shimeji",
+    "subtitle": "Jujutsu Kaisen Series Shimeji - Commissioned",
+    "price": "$10",
+    "image": "resources/productimages/individualimages/Geto.gif",
+    "link": "https://ko-fi.com/s/60f70c1a34",
+    "type": "paid"
   }
 ]
