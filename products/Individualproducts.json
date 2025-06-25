@@ -190,5 +190,13 @@
     "image": "resources/productimages/individualimages/Geto.gif",
     "link": "https://ko-fi.com/s/60f70c1a34",
     "type": "paid"
+  },
+  {
+    "title": "Nanami Shimeji",
+    "subtitle": "Jujutsu Kaisen Series Shimeji - Commissioned",
+    "price": "$10",
+    "image": "resources/productimages/individualimages/Nanami.gif",
+    "link": "https://ko-fi.com/s/539e421462",
+    "type": "paid"
   }
 ]
