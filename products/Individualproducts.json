@@ -198,5 +198,13 @@
     "image": "resources/productimages/individualimages/Nanami.gif",
     "link": "https://ko-fi.com/s/539e421462",
     "type": "paid"
+  },
+  {
+    "title": "Nagatoro Shimeji",
+    "subtitle": "Nagatoro Series Shimeji - Commissioned",
+    "price": "$10",
+    "image": "resources/productimages/individualimages/Nagatoro.gif",
+    "link": "https://ko-fi.com/s/f875ddca3f",
+    "type": "paid"
   }
 ]
