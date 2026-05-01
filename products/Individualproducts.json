@@ -206,5 +206,21 @@
     "image": "resources/productimages/individualimages/Nagatoro.gif",
     "link": "https://ko-fi.com/s/f875ddca3f",
     "type": "paid"
+  },
+  {
+    "title": "Dean Shimeji",
+    "subtitle": "Supernatural Series Shimeji - Commissioned",
+    "price": "$10",
+    "image": "resources/productimages/individualimages/DeanSN.gif",
+    "link": "https://ko-fi.com/s/5a549fa362",
+    "type": "paid"
+  },
+  {
+    "title": "Sam Shimeji",
+    "subtitle": "Supernatural Series Shimeji - Commissioned",
+    "price": "$10",
+    "image": "resources/productimages/individualimages/SamSN.gif",
+    "link": "https://ko-fi.com/s/36926a5ea9",
+    "type": "paid"
   }
 ]
