@@ -143,7 +143,7 @@
     "link": "https://ko-fi.com/s/736a3665ba",
     "type": "paid"
   },
-    {
+  {
     "title": "Aki Shimeji",
     "subtitle": "Chainsawman Series Shimeji - Commissioned",
     "price": "$10",
@@ -221,6 +221,14 @@
     "price": "$10",
     "image": "resources/productimages/individualimages/SamSN.gif",
     "link": "https://ko-fi.com/s/36926a5ea9",
+    "type": "paid"
+  },
+  {
+    "title": "Sky Moth",
+    "subtitle": "Sky COTL Series Shimeji - Commissioned",
+    "price": "$10",
+    "image": "resources/productimages/individualimages/SkyMoth.gif",
+    "link": "https://ko-fi.com/s/749f2d2363",
     "type": "paid"
   }
 ]
