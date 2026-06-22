@@ -224,8 +224,16 @@
     "type": "paid"
   },
   {
-    "title": "Sky Moth",
-    "subtitle": "Sky COTL Series Shimeji - Commissioned",
+    "title": "Caleb Shimeji",
+    "subtitle": "Love and Deep Space - Commissioned",
+    "price": "$10",
+    "image": "resources/productimages/individualimages/CalebLDS.gif",
+    "link": "https://ko-fi.com/s/37b67834e5",
+    "type": "paid"
+  },
+  {
+    "title": "Sky Moth Shimeji",
+    "subtitle": "Sky COTL - Commissioned",
     "price": "$10",
     "image": "resources/productimages/individualimages/SkyMoth.gif",
     "link": "https://ko-fi.com/s/749f2d2363",
