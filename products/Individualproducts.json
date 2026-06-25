@@ -238,5 +238,13 @@
     "image": "resources/productimages/individualimages/SkyMoth.gif",
     "link": "https://ko-fi.com/s/749f2d2363",
     "type": "paid"
+  },
+  {
+    "title": "Sky Stewie Shimeji",
+    "subtitle": "Sky COTL - Commissioned",
+    "price": "$10",
+    "image": "resources/productimages/individualimages/SkyStewie.gif",
+    "link": "https://ko-fi.com/s/eb759aec3d",
+    "type": "paid"
   }
 ]
